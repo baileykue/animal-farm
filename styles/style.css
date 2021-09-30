@@ -1,3 +1,4 @@
+
 h1, h2 {
     font-family: 'Bungee Outline', cursive;
     text-align:center;
@@ -7,18 +8,21 @@ h1, h2 {
     text-shadow: 2px 2px 4px black;
 }
 
-div {
-    width: 915px;
-    content: center;
+h1 {
+    margin-bottom: 5px;
+}
 
-} 
+h2 {
+    font-size: 25px;
+    margin-bottom: 2px;
+}
 
 body {
     background-image: url('../../assets/barn.jpg');
     background-repeat: no-repeat;
 }
 
-main {
+main{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -28,7 +32,7 @@ main {
     
     width: 20vw;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
     border: 2px dashed white;
     margin-left: 40px;
