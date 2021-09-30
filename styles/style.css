@@ -2,10 +2,20 @@ h1, h2 {
     font-family: 'Bungee Outline', cursive;
     text-align:center;
     color: rainbow;
+    width: 915px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 
+div {
+    width: 915px;
+    content: center;
+
+} 
+
 body {
-    background-image: 
+    background-image: url('../../assets/barn.jpg');
+    background-repeat: no-repeat;
 }
 
 main {
@@ -15,10 +25,15 @@ main {
 }
 
 .animals img {
-    width: 30vw;
-    border-radius: 30%;
+    
+    width: 20vw;
+    border-radius: 50%;
     padding: 10px;
     cursor: pointer;
+    border: 2px dashed white;
+    margin-left: 40px;
+    box-shadow: 10px 10px 5px black;
+    
 }
 
 .clicked:active {

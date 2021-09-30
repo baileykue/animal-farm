@@ -1,52 +1,43 @@
-// import functions and grab DOM elements
-const horseImage = document.getElementById('horse-image');
-const horseSound = document.getElementById('horse-sound');
-const dogImage = document.getElementById('dog-image');
-const dogSound = document.getElementById('dog-sound');
-const catImage = document.getElementById('cat-image');
-const catSound = document.getElementById('cat-sound');
 
-// initialize global state
+const goatImage = document.getElementById('goat-image');
+const goatSound = document.getElementById('goat-sound');
+const chickenImage = document.getElementById('chicken-image');
+const chickenSound = document.getElementById('chicken-sound');
+const cowImage = document.getElementById('cow-image');
+const cowSound = document.getElementById('cow-sound');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
-horseImage.addEventListener('click', ()=>{
-  console.log('clicking the horse!');
-  horseSound.play();
+goatImage.addEventListener('click', ()=>{
+  goatSound.play();
 }
 );
 
-dogImage.addEventListener('click', ()=>{
-  console.log('clicking the dog!');
-  dogSound.play();
+chickenImage.addEventListener('click', ()=>{
+  chickenSound.play();
 }
 );
 
-catImage.addEventListener('click', ()=>{
-  console.log('clicking the cat!');
-  catSound.play();
+cowImage.addEventListener('click', ()=>{
+  cowSound.play();
 }
 );
 
 window.addEventListener('keydown', (event)=>{
-  if (event.key =="h") {
-    horseSound.play();
-  }
-}
-);
-
-window.addEventListener('keydown', (event)=>{
-  if (event.key =="d") {
-    dogSound.play();
+  if (event.key =="g") {
+    goatSound.play();
   }
 }
 );
 
 window.addEventListener('keydown', (event)=>{
   if (event.key =="c") {
-    catSound.play();
+    chickenSound.play();
+  }
+}
+);
+
+window.addEventListener('keydown', (event)=>{
+  if (event.key =="m") {
+    cowSound.play();
   }
 }
 );
