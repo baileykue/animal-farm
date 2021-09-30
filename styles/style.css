@@ -1,5 +1,11 @@
 h1, h2 {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Bungee Outline', cursive;
+    text-align:center;
+    color: rainbow;
+}
+
+body {
+    background-image: 
 }
 
 main {
@@ -15,3 +21,12 @@ main {
     cursor: pointer;
 }
 
+.clicked:active {
+transform: scale(1.25);
+}
+
+/*.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+  }
+*/

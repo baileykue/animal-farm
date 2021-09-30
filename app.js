@@ -21,7 +21,6 @@ horseImage.addEventListener('click', ()=>{
 dogImage.addEventListener('click', ()=>{
   console.log('clicking the dog!');
   dogSound.play();
-  dogImage.classList.add('')
 }
 );
 

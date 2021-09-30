@@ -10,18 +10,21 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
     <title>Animal Farm</title>
 </head>
 
 <body>
-   
+    
     <main>
-     <h1>welcome to animal farm</h1>
-     <h2>Click an animal to hear their sound!</h2>
+     <h1 class="rainbow-text">welcome to animal farm</h1>
+     <h2 class="rainbow-text">Click an animal to hear their sound!</h2>
      <div class="animals">
-         <img id="horse-image" src="./assets/horse.png" alt="Brown Horse">
-         <img id="dog-image" src="./assets/dog.png" alt="White Dog">
-         <img id="cat-image" src="./assets/cat.png" alt="White Cat">
+         <img class="clicked" id="horse-image" src="./assets/horse.png" alt="Brown Horse">
+         <img class="clicked" id="dog-image" src="./assets/dog.png" alt="White Dog">
+         <img class="clicked" id="cat-image" src="./assets/cat.png" alt="White Cat">
      </div>
 
      <audio id="horse-sound" src="./assets/horse.wav"></audio>
