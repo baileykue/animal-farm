@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 const goatImage = document.getElementById('goat-image');
 const goatSound = document.getElementById('goat-sound');
 
