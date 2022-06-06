@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
     <title>Animal Farm</title>
-</head>
+  </head>
 
-<body>
-    
+  <body>
     <main>
-     <h1>welcome to my animal farm</h1>
-     <h2>Click an animal to hear their sound!</h2>
-     <h2>or try pressing g, c, & m keys</h2>
-     <div class="animals" id="images">
-         <img class="clicked" id="goat-image" src="./assets/goat.jpg" alt="Baby Goat">
-         <img class="clicked" id="chicken-image" src="./assets/chicken.jpg" alt="Red Chicken">
-         <img class="clicked" id="cow-image" src="./assets/cow.jpg" alt="Red Cow">
-     </div>
+      <h1>welcome to my animal farm</h1>
+      <h2>Click an animal to hear their sound!</h2>
+      <h2>or try pressing g, c, & m keys</h2>
 
-     <audio id="goat-sound" src="./assets/goat.mp3"></audio>
-     <audio id="chicken-sound" src="./assets/chicken.mp3"></audio>
-     <audio id="cow-sound" src="./assets/cow.wav"></audio>
+      <div class="animals" id="images">
+        <img
+          class="clicked"
+          id="goat-image"
+          src="./assets/goat.jpg"
+          alt="Baby Goat"
+        />
+        <img
+          class="clicked"
+          id="cow-image"
+          src="./assets/cow.jpg"
+          alt="Red Cow"
+        />
+        <img
+          class="clicked"
+          id="chicken-image"
+          src="./assets/chicken.jpg"
+          alt="Red Chicken"
+        />
+      </div>
+
+      <audio id="goat-sound" src="./assets/goat.mp3"></audio>
+      <audio id="chicken-sound" src="./assets/chicken.mp3"></audio>
+      <audio id="cow-sound" src="./assets/cow.wav"></audio>
     </main>
-   
 
     <script type="module" src="./app.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,51 +1,45 @@
-
-h1, h2 {
-    font-family: 'Bungee Outline', cursive;
-    text-align:center;
-    color: rainbow;
-    width: 915px;
-    color: white;
-    text-shadow: 2px 2px 4px black;
+h1,
+h2 {
+  font-family: 'Bungee Outline', cursive;
+  text-align: center;
+  width: 915px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
 }
 
 h1 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 h2 {
-    font-size: 25px;
-    margin-bottom: 2px;
+  font-size: 25px;
+  margin-bottom: 2px;
 }
 
 body {
-    background-image: url('../assets/barn.jpg');
-    background-repeat: no-repeat;
+  background-image: url('../assets/barn.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .animals img {
-    
-    width: 20vw;
-    border-radius: 50%;
-    padding: 5px;
-    cursor: pointer;
-    border: 2px dashed white;
-    margin-left: 40px;
-    box-shadow: 10px 10px 5px black;
-    
+  width: 20vw;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 25px;
+  cursor: pointer;
+  border: 2px dashed white;
+  margin-left: 40px;
+  box-shadow: 10px 10px 5px black;
 }
 
 .clicked:active {
-transform: scale(1.25);
+  transform: scale(1.25);
 }
-
-/*.rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-  }
-*/
